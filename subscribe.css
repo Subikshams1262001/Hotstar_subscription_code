@@ -1,1268 +1,1407 @@
 * {
-  margin: 0px;
-  padding: 0px;
+    margin: 0px;
+    padding: 0px;
 }
+
 body {
-  color: white;
-  background-color: #00091a;
-  font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #00091a;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 .header {
-  height: 80px;
-  width: 100%;
-  background-color:black;
-  position: fixed;
-  margin-top:-150px;
-  
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    margin-top: -150px;
 }
+
 .name {
-  margin: 30px 70px;
-  font-size: 18px;
-  font-family: lucida Sans;
-  cursor:pointer;
-  font-weight:bold;
-  color:gainsboro;
-
-}
-.name:hover{
-  color:white;
+    margin: 30px 70px;
+    font-size: 18px;
+    font-family: lucida Sans;
+    cursor: pointer;
+    font-weight: bold;
+    color: gainsboro;
 }
 
-.header_left{
-  margin-top:-50px;
-  margin-left:350px;
+.name:hover {
+    color: white;
+}
 
+.header_left {
+    margin-top: -50px;
+    margin-left: 350px;
 }
-.view{
-  width:120px;
-  height:30px;
-  font-size:13px;
-  border-radius:5px;
-  background-color:#00004d ;
-  color:gainsboro;
-  margin-left:700px;
-  font-weight:bold;
+
+.view {
+    width: 120px;
+    height: 30px;
+    font-size: 13px;
+    border-radius: 5px;
+    background-color: #00004d;
+    color: gainsboro;
+    margin-left: 700px;
+    font-weight: bold;
 }
-.login{
-  width:70px;
-  height:30px;
-  font-size:13px;
-  border-radius:5px;
-  color:gainsboro;
-  background-color:#00004d ;
-  border:1px solid blue;
-  margin-left:900px;
-  margin-top:-31px;
-  font-weight:bold;
+
+.login {
+    width: 70px;
+    height: 30px;
+    font-size: 13px;
+    border-radius: 5px;
+    color: gainsboro;
+    background-color: #00004d;
+    border: 1px solid blue;
+    margin-left: 900px;
+    margin-top: -31px;
+    font-weight: bold;
 }
+
 .dub {
-  font-size: 14px;
+    font-size: 14px;
 }
+
 .select {
-  margin-top: 100px;
-  margin-left: 20px;
+    margin-top: 100px;
+    margin-left: 20px;
 }
+
 .subs {
-  margin-top:140px;
+    margin-top: 140px;
 }
+
 td {
-  font-size: 15px;
-  color: ghostwhite;
-  padding: 15px;
-  margin-left: 20px;
-  border-bottom: 1px solid white;
+    font-size: 15px;
+    color: ghostwhite;
+    padding: 15px;
+    margin-left: 20px;
+    border-bottom: 1px solid white;
 }
 
 .topics {
-  margin-left: 10px;
-  text-align: center;
+    margin-left: 10px;
+    text-align: center;
 }
-.border {
-  background-color:#183a7c94 ;
-  margin-top: 20px;
-  height: 700px;
-  width: 800px;
 
-  border-radius: 5px;
-  padding-top: 20px;
+.border {
+    background-color: #183a7c94;
+    margin-top: 20px;
+    height: 700px;
+    width: 800px;
+    border-radius: 5px;
+    padding-top: 20px;
 }
 
 .button {
-  width: 60px;
-  height: 20px;
-  font-size: 14px;
-  background-color: grey;
-  font-weight: bold;
-  border-radius: 5px;
+    width: 60px;
+    height: 20px;
+    font-size: 14px;
+    background-color: grey;
+    font-weight: bold;
+    border-radius: 5px;
 }
-.button1 {
-  width: 40px;
-  height: 20px;
 
-  font-size: 14px;
-  background-color: #ffff33;
-  font-weight: bold;
-  border-radius: 5px;
+.button1 {
+    width: 40px;
+    height: 20px;
+    font-size: 14px;
+    background-color: #ffff33;
+    font-weight: bold;
+    border-radius: 5px;
 }
+
 .button2 {
-  width: 80px;
-  height: 20px;
-  font-size: 14px;
-  background-color: #88cc00;
-  font-weight: bold;
-  border-radius: 5px;
+    width: 80px;
+    height: 20px;
+    font-size: 14px;
+    background-color: #88cc00;
+    font-weight: bold;
+    border-radius: 5px;
 }
+
 .rectangle {
-  padding: -10px;
-  margin-top: -200px;
-  margin-left: 370px;
+    padding: -10px;
+    margin-top: -200px;
+    margin-left: 370px;
 }
+
 .rect1 {
-  display: inline-block;
-  height: 80px;
-  width: 230px;
-  border: 2px solid blue;
-  border-radius: 5px;
-  margin-left: -50px;
-  
+    display: inline-block;
+    height: 80px;
+    width: 230px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    margin-left: -50px;
 }
+
 .rect2 {
-  display: inline-block;
-  height: 80px;
-  width: 230px;
-  border: 2px solid blue;
-  border-radius: 5px;
-  margin-left: 10px;
-  
+    display: inline-block;
+    height: 80px;
+    width: 230px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    margin-left: 10px;
 }
 
 .rect3 {
-  display: inline-block;
-  height: 80px;
-  width: 220px;
-  border: 2px solid blue;
-  border-radius: 5px;
-  margin-left: 10px;
+    display: inline-block;
+    height: 80px;
+    width: 220px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    margin-left: 10px;
 }
-.rect4 {
-  height: 50px;
-  width: 760px;
-  border: 2px solid blue;
-  border-radius: 5px;
-  background-color: #3399ff;
-  line-height: 50px;
-  margin-left: -70px;
-  margin-top:15px;
-}
-.button4 {
-  font-size: 11px;
-  background-color: #ffff33;
-  font-weight: bold;
-  border-radius: 5px;
-  margin-top: 10px;
-  margin-left: 10px;
-  width: 40px;
-  height: 20px;
-}
-.button5 {
-  font-size: 11px;
-  background-color: #88cc00;
-  font-weight: bold;
-  border-radius: 5px;
-  margin-top: 10px;
-  margin-left: 10px;
-  width: 80px;
-  height:20px;
-}
-.money {
-  margin-left: 10px;
-}
-.footer {
-  height: 180px;
-  
-  margin-top: 120px;
-  margin-left:40px;
-}
-.copy {
-  width: 580px;
-  font-size: 13px;
-  color: gainsboro;
-  margin-top:20px;
-}
-.fbimg {
-  border-radius: 5px;
 
-  margin-left: 700px;
+.rect4 {
+    height: 50px;
+    width: 760px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    background-color: #3399ff;
+    line-height: 50px;
+    margin-left: -70px;
+    margin-top: 15px;
 }
+
+.button4 {
+    font-size: 11px;
+    background-color: #ffff33;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 40px;
+    height: 20px;
+}
+
+.button5 {
+    font-size: 11px;
+    background-color: #88cc00;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 80px;
+    height: 20px;
+}
+
+.money {
+    margin-left: 10px;
+}
+
+.footer {
+    height: 180px;
+    margin-top: 120px;
+    margin-left: 40px;
+}
+
+.copy {
+    width: 580px;
+    font-size: 13px;
+    color: gainsboro;
+    margin-top: 20px;
+}
+
+.fbimg {
+    border-radius: 5px;
+    margin-left: 700px;
+}
+
 .twitimg {
-  margin-top: -50px;
-  border-radius: 5px;
-  margin-left: 770px;
+    margin-top: -50px;
+    border-radius: 5px;
+    margin-left: 770px;
 }
 
 .fb {
-margin-top:15px;
+    margin-top: 15px;
 }
+
 .connect {
-  margin-left: 710px;
-  margin-top: -85px;
-  font-size: 15px;
-  color: gainsboro;
+    margin-left: 710px;
+    margin-top: -85px;
+    font-size: 15px;
+    color: gainsboro;
 }
+
 .googleimg {
-  margin-top: -50px;
-  border-radius: 5px;
-  margin-left: 980px;
+    margin-top: -50px;
+    border-radius: 5px;
+    margin-left: 980px;
 }
+
 .appleimg {
-  margin-top: -50px;
-  border-radius: 5px;
-  margin-left: 1150px;
+    margin-top: -50px;
+    border-radius: 5px;
+    margin-left: 1150px;
 }
 
 .connect2 {
-  margin-top: -85px;
-  font-size: 15px;
-  margin-left: 980px;
-  color: gainsboro;
+    margin-top: -85px;
+    font-size: 15px;
+    margin-left: 980px;
+    color: gainsboro;
 }
+
 .query {
-  color: gainsboro;
+    color: gainsboro;
 }
+
 .google {
-  margin-top: 60px;
+    margin-top: 60px;
 }
 
 .abt {
-  color: gainsboro;
-  text-decoration: none;
-  font-size: 15px;
-  margin-top:15px;
+    color: gainsboro;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 15px;
 }
+
 .abt:hover {
-  color: blue;
+    color: blue;
 }
+
 .mail {
-  color: #1ac6ff;
-  text-decoration: none;
+    color: #1ac6ff;
+    text-decoration: none;
 }
 
 @media screen and (min-width: 70px) and (max-width: 310px) {
-  .name{
-    margin-left:20px;
-  }
-  .header_left{
-    display:none;
-  }
-  .subs{
-    font-size:14px;
-    margin-left:10px;
-    
-  }
-  td {
-    font-size: 9px;
-    color: ghostwhite;
-    padding: 10px;
-    margin-left: 2px;
-    border-bottom: 1px solid white;
-  }
-  .dub{
-    font-size:10px;
-  }
-  .topics {
-    margin-left: 10px;
-    text-align: center;
-  }
-  .border {
-    
-    background-color: #00091a;
-    margin-top: 20px;
-    height: 700px;
-    width: 310px;
-    margin-left:10px;
-    border-radius: 5px;
-    padding-top: 20px;
-  }
-  
-  .button {
-    width: 40px;
-    height: 15px;
-    font-size: 9px;
-    background-color: grey;
-    font-weight: bold;
-    border-radius: 5px;
-  }
-  .button1 {
-    width: 30px;
-    height: 15px;
-  
-    font-size: 9px;
-    background-color: #ffff33;
-    font-weight: bold;
-    border-radius: 5px;
-  }
-  .button2 {
-    width: 60px;
-    height: 15px;
-    font-size: 9px;
-    background-color: #88cc00;
-    font-weight: bold;
-    border-radius: 5px;
-  }
-
-  .rectangle {
-    padding: -10px;
-    margin-top: -300px;
-    margin-left: 375px;
-  }
-  .rect1 {
-    display: inline-block;
-    height: 60px;
-    width: 80px;
-    border: 2px solid blue;
-    border-radius: 5px;
-    margin-left: -350px;
-    font-size:9px;
-  }
-  .rect2 {
-    display: inline-block;
-    height: 60px;
-    width: 80px;
-    border: 2px solid blue;
-    border-radius: 5px;
-    margin-left: 2px;
-    font-size:9px;
-    
-  }
-  
-  .rect3 {
-    display: inline-block;
-    height:60px;
-    width: 80px;
-    border: 2px solid blue;
-    border-radius: 5px;
-    margin-left: 2px;
-    font-size:9px;
-  }
-  .rect4 {
-    height: 30px;
-    width: 280px;
-    border: 2px solid blue;
-    border-radius: 5px;
-    background-color: #3399ff;
-    line-height: 40px;
-    margin-left: -350px;
-    margin-top:15px;
-    font-size:11px;
-  }
-  .button4 {
-    font-size: 14px;
-    background-color: #ffff33;
-    font-weight: bold;
-    border-radius: 5px;
-    margin-top: 10px;
-    margin-left: 10px;
-    width: 30px;
-    height: 20px;
-    font-size:9px;
-    
-  }
-  .button5 {
-    font-size: 14px;
-    background-color: #88cc00;
-    font-weight: bold;
-    border-radius: 5px;
-    margin-top: 10px;
-    margin-left: 10px;
-    width: 60px;
-    height: 20px;
-    font-size:9px;
-    
-  }
-  .money {
-    margin-left: 4px;
-  }
-  .footer {
-    margin-left: 20px;
-    height: 500px;
-  }
-  .abt {
-    font-size: 14px;
-    margin-left: 2px;
-    line-height: 20px;
-  }
-  .copy {
-    width: 260px;
-    font-size: 12px;
-    color: gainsboro;
-    margin-top: 20px;
-    line-height: 20px;
-  }
-  .connect {
-    margin-left: 8px;
-    margin-top: 30px;
-
-    font-size: 13px;
-    color: gainsboro;
-  }
-  .fb {
-    margin-left: -690px;
-  }
-  .fbimg {
-    width: 40px;
-    height: 40px;
-  }
-  .twitimg {
-    width: 40px;
-    height: 40px;
-    margin-top: -40px;
-    margin-left: 5px;
-  }
-
-  .connect2 {
-    margin-top: -72px;
-    font-size: 13px;
-    margin-left: 160px;
-    color: gainsboro;
-  }
-  .google {
-    margin-left: -50px;
-    margin-top:2px;
-  }
-
-  .googleimg {
-    margin-left: 200px;
-    width: 90px;
-    height: 40px;
-    margin-top: 10px;
-  }
-  .appleimg {
-    margin-left: 200px;
-    margin-top: 10px;
-    width: 90;
-    height: 40px;
-  }
-
+    .name {
+        margin-left: 20px;
+    }
+    .header_left {
+        display: none;
+    }
+    .subs {
+        font-size: 14px;
+        margin-left: 10px;
+    }
+    td {
+        font-size: 9px;
+        color: ghostwhite;
+        padding: 10px;
+        margin-left: 2px;
+        border-bottom: 1px solid white;
+    }
+    .dub {
+        font-size: 10px;
+    }
+    .topics {
+        margin-left: 10px;
+        text-align: center;
+    }
+    .border {
+        margin-top: 20px;
+        height: 700px;
+        width: 310px;
+        margin-left: 10px;
+        border-radius: 5px;
+        padding-top: 20px;
+        background-color: #00091a;
+    }
+    .button {
+        width: 40px;
+        height: 15px;
+        font-size: 9px;
+        background-color: grey;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+    .button1 {
+        width: 30px;
+        height: 15px;
+        font-size: 9px;
+        background-color: #ffff33;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+    .button2 {
+        width: 60px;
+        height: 15px;
+        font-size: 9px;
+        background-color: #88cc00;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+    .rectangle {
+        padding: -10px;
+        margin-top: -300px;
+        margin-left: 375px;
+    }
+    .rect1 {
+        display: inline-block;
+        height: 60px;
+        width: 80px;
+        border: 2px solid blue;
+        border-radius: 5px;
+        margin-left: -350px;
+        font-size: 9px;
+    }
+    .rect2 {
+        display: inline-block;
+        height: 60px;
+        width: 80px;
+        border: 2px solid blue;
+        border-radius: 5px;
+        margin-left: 2px;
+        font-size: 9px;
+    }
+    .rect3 {
+        display: inline-block;
+        height: 60px;
+        width: 80px;
+        border: 2px solid blue;
+        border-radius: 5px;
+        margin-left: 2px;
+        font-size: 9px;
+    }
+    .rect4 {
+        height: 30px;
+        width: 280px;
+        border: 2px solid blue;
+        border-radius: 5px;
+        background-color: #3399ff;
+        line-height: 40px;
+        margin-left: -350px;
+        margin-top: 15px;
+        font-size: 11px;
+    }
+    .button4 {
+        font-size: 14px;
+        background-color: #ffff33;
+        font-weight: bold;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 30px;
+        height: 20px;
+        font-size: 9px;
+    }
+    .button5 {
+        font-size: 14px;
+        background-color: #88cc00;
+        font-weight: bold;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 60px;
+        height: 20px;
+        font-size: 9px;
+    }
+    .money {
+        margin-left: 4px;
+    }
+    .footer {
+        margin-left: 20px;
+        height: 500px;
+    }
+    .abt {
+        font-size: 14px;
+        margin-left: 2px;
+        line-height: 20px;
+    }
+    .copy {
+        width: 260px;
+        font-size: 12px;
+        color: gainsboro;
+        margin-top: 20px;
+        line-height: 20px;
+    }
+    .connect {
+        margin-left: 8px;
+        margin-top: 30px;
+        font-size: 13px;
+        color: gainsboro;
+    }
+    .fb {
+        margin-left: -690px;
+    }
+    .fbimg {
+        width: 40px;
+        height: 40px;
+    }
+    .twitimg {
+        width: 40px;
+        height: 40px;
+        margin-top: -40px;
+        margin-left: 5px;
+    }
+    .connect2 {
+        margin-top: -72px;
+        font-size: 13px;
+        margin-left: 160px;
+        color: gainsboro;
+    }
+    .google {
+        margin-left: -50px;
+        margin-top: 2px;
+    }
+    .googleimg {
+        margin-left: 200px;
+        width: 90px;
+        height: 40px;
+        margin-top: 10px;
+    }
+    .appleimg {
+        margin-left: 200px;
+        margin-top: 10px;
+        width: 90;
+        height: 40px;
+    }
 }
+
 @media screen and (min-width: 311px) and (max-width: 350px) {
-  .name{
-    margin-left:20px;
-  }
-  .header_left{
-    display:none;
-  }
-  .subs{
-    font-size:14px;
-    
-  }
-  td {
-    font-size: 11px;
-    color: ghostwhite;
-    padding: 10px;
-    margin-left: 2px;
-    border-bottom: 1px solid white;
-  }
-  .dub{
-    font-size:10px;
-  }
-  .topics {
-    margin-left: 10px;
-    text-align: center;
-  }
-  .border {
-    
-    background-color: #00091a;
-    margin-top: 20px;
-    height: 700px;
-    width: 320px;
-    margin-left:10px;
-    border-radius: 5px;
-    padding-top: 20px;
-  }
-  
-  .button {
-    width: 40px;
-    height: 15px;
-    font-size: 9px;
-    background-color: grey;
-    font-weight: bold;
-    border-radius: 5px;
-  }
-  .button1 {
-    width: 30px;
-    height: 15px;
-  
-    font-size: 9px;
-    background-color: #ffff33;
-    font-weight: bold;
-    border-radius: 5px;
-  }
-  .button2 {
-    width: 60px;
-    height: 15px;
-    font-size: 9px;
-    background-color: #88cc00;
-    font-weight: bold;
-    border-radius: 5px;
-  }
-
-  .rectangle {
-    padding: -10px;
-    margin-top: -250px;
-    margin-left: 360px;
-  }
-  .rect1 {
-    display: inline-block;
-    height: 60px;
-    width: 100px;
-    border: 2px solid blue;
-    border-radius: 5px;
-    margin-left: -350px;
-    font-size:9px;
-  }
-  .rect2 {
-    display: inline-block;
-    height: 60px;
-    width: 100px;
-    border: 2px solid blue;
-    border-radius: 5px;
-    margin-left: 2px;
-    font-size:9px;
-    
-  }
-  
-  .rect3 {
-    display: inline-block;
-    height:60px;
-    width: 100px;
-    border: 2px solid blue;
-    border-radius: 5px;
-    margin-left: 2px;
-    font-size:9px;
-  }
-  .rect4 {
-    height: 30px;
-    width: 330px;
-    border: 2px solid blue;
-    border-radius: 5px;
-    background-color: #3399ff;
-    line-height: 40px;
-    margin-left: -355px;
-    margin-top:15px;
-    font-size:13px;
-  }
-  .button4 {
-    font-size: 14px;
-    background-color: #ffff33;
-    font-weight: bold;
-    border-radius: 5px;
-    margin-top: 10px;
-    margin-left: 10px;
-    width: 30px;
-    height: 20px;
-    font-size:9px;
-    
-  }
-  .button5 {
-    font-size: 14px;
-    background-color: #88cc00;
-    font-weight: bold;
-    border-radius: 5px;
-    margin-top: 10px;
-    margin-left: 10px;
-    width: 60px;
-    height: 20px;
-    font-size:9px;
-    
-  }
-  .money {
-    margin-left: 4px;
-  }
-  .footer {
-    margin-left: 20px;
-    height: 500px;
-  }
-  .abt {
-    font-size: 14px;
-    margin-left: 2px;
-    line-height: 20px;
-  }
-  .copy {
-    width: 290px;
-    font-size: 12px;
-    color: gainsboro;
-    margin-top: 20px;
-    line-height: 20px;
-  }
-  .connect {
-    margin-left: 3px;
-    margin-top: 30px;
-
-    font-size: 14px;
-    color: gainsboro;
-  }
-  .fb {
-    margin-left: -700px;
-  }
-  .fbimg {
-    width: 40px;
-    height: 40px;
-  }
-  .twitimg {
-    width: 40px;
-    height: 40px;
-    margin-top: -40px;
-    margin-left: 5px;
-  }
-
-  .connect2 {
-    margin-top: -70px;
-    font-size: 14px;
-    margin-left: 150px;
-    color: gainsboro;
-  }
-  .google{
-    margin-top:2px;
-  }
-
-  .googleimg {
-    margin-left: 150px;
-    width: 130px;
-    height: 40px;
-    margin-top: 10px;
-  }
-  .appleimg {
-    margin-left: 150px;
-    margin-top: 10px;
-    width: 130;
-    height: 40px;
-  }
-
-
+    .name {
+        margin-left: 20px;
+    }
+    .header_left {
+        display: none;
+    }
+    .subs {
+        font-size: 14px;
+    }
+    td {
+        font-size: 11px;
+        color: ghostwhite;
+        padding: 10px;
+        margin-left: 2px;
+        border-bottom: 1px solid white;
+    }
+    .dub {
+        font-size: 10px;
+    }
+    .topics {
+        margin-left: 10px;
+        text-align: center;
+    }
+    .border {
+        margin-top: 20px;
+        height: 700px;
+        width: 320px;
+        margin-left: 10px;
+        border-radius: 5px;
+        padding-top: 20px;
+        background-color: #00091a;
+    }
+    .button {
+        width: 40px;
+        height: 15px;
+        font-size: 9px;
+        background-color: grey;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+    .button1 {
+        width: 30px;
+        height: 15px;
+        font-size: 9px;
+        background-color: #ffff33;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+    .button2 {
+        width: 60px;
+        height: 15px;
+        font-size: 9px;
+        background-color: #88cc00;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+    .rectangle {
+        padding: -10px;
+        margin-top: -250px;
+        margin-left: 360px;
+    }
+    .rect1 {
+        display: inline-block;
+        height: 60px;
+        width: 100px;
+        border: 2px solid blue;
+        border-radius: 5px;
+        margin-left: -350px;
+        font-size: 9px;
+    }
+    .rect2 {
+        display: inline-block;
+        height: 60px;
+        width: 100px;
+        border: 2px solid blue;
+        border-radius: 5px;
+        margin-left: 2px;
+        font-size: 9px;
+    }
+    .rect3 {
+        display: inline-block;
+        height: 60px;
+        width: 100px;
+        border: 2px solid blue;
+        border-radius: 5px;
+        margin-left: 2px;
+        font-size: 9px;
+    }
+    .rect4 {
+        height: 30px;
+        width: 330px;
+        border: 2px solid blue;
+        border-radius: 5px;
+        background-color: #3399ff;
+        line-height: 40px;
+        margin-left: -355px;
+        margin-top: 15px;
+        font-size: 13px;
+    }
+    .button4 {
+        font-size: 14px;
+        background-color: #ffff33;
+        font-weight: bold;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 30px;
+        height: 20px;
+        font-size: 9px;
+    }
+    .button5 {
+        font-size: 14px;
+        background-color: #88cc00;
+        font-weight: bold;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 60px;
+        height: 20px;
+        font-size: 9px;
+    }
+    .money {
+        margin-left: 4px;
+    }
+    .footer {
+        margin-left: 20px;
+        height: 500px;
+    }
+    .abt {
+        font-size: 14px;
+        margin-left: 2px;
+        line-height: 20px;
+    }
+    .copy {
+        width: 290px;
+        font-size: 12px;
+        color: gainsboro;
+        margin-top: 20px;
+        line-height: 20px;
+    }
+    .connect {
+        margin-left: 3px;
+        margin-top: 30px;
+        font-size: 14px;
+        color: gainsboro;
+    }
+    .fb {
+        margin-left: -700px;
+    }
+    .fbimg {
+        width: 40px;
+        height: 40px;
+    }
+    .twitimg {
+        width: 40px;
+        height: 40px;
+        margin-top: -40px;
+        margin-left: 5px;
+    }
+    .connect2 {
+        margin-top: -70px;
+        font-size: 14px;
+        margin-left: 150px;
+        color: gainsboro;
+    }
+    .google {
+        margin-top: 2px;
+    }
+    .googleimg {
+        margin-left: 150px;
+        width: 130px;
+        height: 40px;
+        margin-top: 10px;
+    }
+    .appleimg {
+        margin-left: 150px;
+        margin-top: 10px;
+        width: 130;
+        height: 40px;
+    }
 }
-@media screen and (min-width: 351px) and (max-width: 420px) {
-  .header{
-    height:60px;
-  }
-  .name{
-    margin-left:20px;
-    font-size:14px;
-  }
-  .header_left{
-    display:none;
-  }
-  .subs{
-    font-size:13px;
-    margin-left:-50px;
-    
 
-  }
-  td {
-    font-size: 9px;
-    color: ghostwhite;
-    padding: 10px;
-    margin-left: 2px;
-    border-bottom: 1px solid white;
-  }
-  .dub{
-    font-size:10px;
-  }
-  .topics {
-    margin-left: 10px;
-    text-align: center;
-  }
-  .border {
-    
-    background-color: #00091a;
-    margin-top: 20px;
-    height: 700px;
-    width: 350px;
-    margin-left:-20px;
-    border-radius: 5px;
-    padding-top: 20px;
-  }
-  
-  .button {
-    width: 40px;
-    height: 15px;
-    font-size: 9px;
-    background-color: grey;
-    font-weight: bold;
-    border-radius: 5px;
-  }
-  .button1 {
-    width: 30px;
-    height: 15px;
-  
-    font-size: 9px;
-    background-color: #ffff33;
-    font-weight: bold;
-    border-radius: 5px;
-  }
-  .button2 {
-    width: 60px;
-    height: 15px;
-    font-size: 9px;
-    background-color: #88cc00;
-    font-weight: bold;
-    border-radius: 5px;
-  }
-  .rectangle {
-    padding: -10px;
-    margin-top: -320px;
-    margin-left: 390px;
-  }
-  .rect1 {
-    display: inline-block;
-    height: 60px;
-    width: 100px;
-    border: 2px solid blue;
-    border-radius: 5px;
-    margin-left: -380px;
-    font-size:9px;
-  }
-  .rect2 {
-    display: inline-block;
-    height: 60px;
-    width: 100px;
-    border: 2px solid blue;
-    border-radius: 5px;
-    margin-left: 2px;
-    font-size:9px;
-    
-  }
-  
-  .rect3 {
-    display: inline-block;
-    height:60px;
-    width: 100px;
-    border: 2px solid blue;
-    border-radius: 5px;
-    margin-left: 2px;
-    font-size:9px;
-  }
-  .rect4 {
-    height: 30px;
-    width: 340px;
-    border: 2px solid blue;
-    border-radius: 5px;
-    background-color: #3399ff;
-    line-height: 30px;
-    margin-left: -380px;
-    margin-top:15px;
-    font-size:14px;
-  }
-  .button4 {
-    font-size: 14px;
-    background-color: #ffff33;
-    font-weight: bold;
-    border-radius: 5px;
-    margin-top: 10px;
-    margin-left: 10px;
-    width: 30px;
-    height: 20px;
-    font-size:9px;
-    
-  }
-  .button5 {
-    font-size: 14px;
-    background-color: #88cc00;
-    font-weight: bold;
-    border-radius: 5px;
-    margin-top: 10px;
-    margin-left: 10px;
-    width: 60px;
-    height: 20px;
-    font-size:9px;
-    
-  }
-  .money {
-    margin-left: 4px;
-  }
-  .footer {
-    margin-left: 20px;
-    height: 500px;
-  }
-  .abt {
-    font-size: 14px;
-    margin-left: 2px;
-    line-height: 20px;
-  }
-  .copy {
-    width: 340px;
-    font-size: 12px;
-    color: gainsboro;
-    margin-top: 20px;
-    line-height: 20px;
-  }
-  .connect {
-    margin-left: 8px;
-    margin-top: 30px;
-
-    font-size: 14px;
-    color: gainsboro;
-  }
-  .fb {
-    margin-left: -690px;
-  
-  }
-  .fbimg {
-    width: 40px;
-    height: 40px;
-  }
-  .twitimg {
-    width: 40px;
-    height: 40px;
-    margin-top: -40px;
-    margin-left: 5px;
-  }
-
-  .connect2 {
-    margin-top: -70px;
-    font-size: 14px;
-    margin-left: 200px;
-    color: gainsboro;
-  }
-  .google{
-    margin-top:2px;
-  }
-
-  .googleimg {
-    margin-left: 200px;
-    width: 130px;
-    height: 40px;
-    margin-top: 10px;
-  }
-  .appleimg {
-    margin-left: 200px;
-    margin-top: 10px;
-    width: 130;
-    height: 40px;
-  }
-
+@media screen and (min-width: 351px) and (max-width: 399px) {
+    .header {
+        height: 60px;
+    }
+    .name {
+        margin-left: 20px;
+        font-size: 14px;
+    }
+    .header_left {
+        display: none;
+    }
+    .subs {
+        font-size: 14px;
+        margin-left: -45px;
+    }
+    td {
+        font-size: 9px;
+        color: ghostwhite;
+        padding: 10px;
+        margin-left: 2px;
+        border-bottom: 1px solid white;
+    }
+    .dub {
+        font-size: 10px;
+    }
+    .topics {
+        margin-left: 10px;
+        text-align: center;
+    }
+    .border {
+        margin-top: 20px;
+        height: 700px;
+        width: 350px;
+        margin-left: -20px;
+        border-radius: 5px;
+        padding-top: 20px;
+        background-color: #00091a;
+    }
+    .button {
+        width: 40px;
+        height: 15px;
+        font-size: 9px;
+        background-color: grey;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+    .button1 {
+        width: 30px;
+        height: 15px;
+        font-size: 9px;
+        background-color: #ffff33;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+    .button2 {
+        width: 60px;
+        height: 15px;
+        font-size: 9px;
+        background-color: #88cc00;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+    .rectangle {
+        padding: -10px;
+        margin-top: -320px;
+        margin-left: 396px;
+    }
+    .rect1 {
+        display: inline-block;
+        height: 60px;
+        width: 100px;
+        border: 2px solid blue;
+        border-radius: 5px;
+        margin-left: -380px;
+        font-size: 9px;
+    }
+    .rect2 {
+        display: inline-block;
+        height: 60px;
+        width: 100px;
+        border: 2px solid blue;
+        border-radius: 5px;
+        margin-left: 2px;
+        font-size: 9px;
+    }
+    .rect3 {
+        display: inline-block;
+        height: 60px;
+        width: 100px;
+        border: 2px solid blue;
+        border-radius: 5px;
+        margin-left: 2px;
+        font-size: 9px;
+    }
+    .rect4 {
+        height: 30px;
+        width: 340px;
+        border: 2px solid blue;
+        border-radius: 5px;
+        background-color: #3399ff;
+        line-height: 30px;
+        margin-left: -388px;
+        margin-top: 15px;
+        font-size: 14px;
+    }
+    .button4 {
+        font-size: 14px;
+        background-color: #ffff33;
+        font-weight: bold;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 30px;
+        height: 20px;
+        font-size: 9px;
+    }
+    .button5 {
+        font-size: 14px;
+        background-color: #88cc00;
+        font-weight: bold;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 60px;
+        height: 20px;
+        font-size: 9px;
+    }
+    .money {
+        margin-left: 4px;
+    }
+    .footer {
+        margin-left: 20px;
+        height: 500px;
+    }
+    .abt {
+        font-size: 14px;
+        margin-left: 2px;
+        line-height: 20px;
+    }
+    .copy {
+        width: 340px;
+        font-size: 12px;
+        color: gainsboro;
+        margin-top: 20px;
+        line-height: 20px;
+    }
+    .connect {
+        margin-left: 8px;
+        margin-top: 30px;
+        font-size: 14px;
+        color: gainsboro;
+    }
+    .fb {
+        margin-left: -690px;
+    }
+    .fbimg {
+        width: 40px;
+        height: 40px;
+    }
+    .twitimg {
+        width: 40px;
+        height: 40px;
+        margin-top: -40px;
+        margin-left: 5px;
+    }
+    .connect2 {
+        margin-top: -70px;
+        font-size: 14px;
+        margin-left: 200px;
+        color: gainsboro;
+    }
+    .google {
+        margin-top: 2px;
+    }
+    .googleimg {
+        margin-left: 200px;
+        width: 130px;
+        height: 40px;
+        margin-top: 10px;
+    }
+    .appleimg {
+        margin-left: 200px;
+        margin-top: 10px;
+        width: 130;
+        height: 40px;
+    }
 }
+
+@media screen and (min-width: 400px) and (max-width: 420px) {
+    .header {
+        height: 60px;
+    }
+    .name {
+        margin-left: 20px;
+        font-size: 14px;
+    }
+    .header_left {
+        display: none;
+    }
+    .subs {
+        font-size: 13px;
+        margin-left: -50px;
+    }
+    td {
+        font-size: 11px;
+        color: ghostwhite;
+        padding: 10px;
+        margin-left: 2px;
+        border-bottom: 1px solid white;
+    }
+    .dub {
+        font-size: 10px;
+    }
+    .topics {
+        margin-left: 10px;
+        text-align: center;
+    }
+    .border {
+        margin-top: 20px;
+        height: 700px;
+        width: 400px;
+        margin-left: -20px;
+        border-radius: 5px;
+        padding-top: 20px;
+        background-color: #00091a;
+    }
+    .button {
+        width: 40px;
+        height: 15px;
+        font-size: 9px;
+        background-color: grey;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+    .button1 {
+        width: 30px;
+        height: 15px;
+        font-size: 9px;
+        background-color: #ffff33;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+    .button2 {
+        width: 60px;
+        height: 15px;
+        font-size: 9px;
+        background-color: #88cc00;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+    .rectangle {
+        padding: -10px;
+        margin-top: -320px;
+        margin-left: 411px;
+    }
+    .rect1 {
+        display: inline-block;
+        height: 60px;
+        width: 110px;
+        border: 2px solid blue;
+        border-radius: 5px;
+        margin-left: -387px;
+        font-size: 9px;
+    }
+    .rect2 {
+        display: inline-block;
+        height: 60px;
+        width: 110px;
+        border: 2px solid blue;
+        border-radius: 5px;
+        margin-left: 2px;
+        font-size: 9px;
+    }
+    .rect3 {
+        display: inline-block;
+        height: 60px;
+        width: 110px;
+        border: 2px solid blue;
+        border-radius: 5px;
+        margin-left: 2px;
+        font-size: 9px;
+    }
+    .rect4 {
+        height: 30px;
+        width: 390px;
+        border: 2px solid blue;
+        border-radius: 5px;
+        background-color: #3399ff;
+        line-height: 30px;
+        margin-left: -406px;
+        margin-top: 15px;
+        font-size: 14px;
+    }
+    .button4 {
+        font-size: 14px;
+        background-color: #ffff33;
+        font-weight: bold;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 30px;
+        height: 20px;
+        font-size: 9px;
+    }
+    .button5 {
+        font-size: 14px;
+        background-color: #88cc00;
+        font-weight: bold;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 60px;
+        height: 20px;
+        font-size: 9px;
+    }
+    .money {
+        margin-left: 4px;
+    }
+    .footer {
+        margin-left: 20px;
+        height: 500px;
+    }
+    .abt {
+        font-size: 14px;
+        margin-left: 2px;
+        line-height: 20px;
+    }
+    .copy {
+        width: 340px;
+        font-size: 12px;
+        color: gainsboro;
+        margin-top: 20px;
+        line-height: 20px;
+    }
+    .connect {
+        margin-left: 8px;
+        margin-top: 30px;
+        font-size: 14px;
+        color: gainsboro;
+    }
+    .fb {
+        margin-left: -690px;
+    }
+    .fbimg {
+        width: 40px;
+        height: 40px;
+    }
+    .twitimg {
+        width: 40px;
+        height: 40px;
+        margin-top: -40px;
+        margin-left: 5px;
+    }
+    .connect2 {
+        margin-top: -70px;
+        font-size: 14px;
+        margin-left: 200px;
+        color: gainsboro;
+    }
+    .google {
+        margin-top: 2px;
+    }
+    .googleimg {
+        margin-left: 200px;
+        width: 130px;
+        height: 40px;
+        margin-top: 10px;
+    }
+    .appleimg {
+        margin-left: 200px;
+        margin-top: 10px;
+        width: 130;
+        height: 40px;
+    }
+}
+
 @media screen and (min-width: 421px) and (max-width: 540px) {
-  .name{
-    margin-left:15px;
-  }
-.view{
-  margin-left:-40px;
-  
-}
-.login{
-  margin-left:20px;
-  
-}
-.border{
-  width:530px;
-  height:750px;
-}
-.rectangle {
-  padding: -10px;
-  margin-top: -200px;
-  margin-left: 450px;
-}
-.rect1 {
-  display: inline-block;
-  height: 80px;
-  width: 150px;
-  border: 2px solid blue;
-  border-radius: 5px;
-  margin-left: -420px;
-
-  
-}
-.rect2 {
-  display: inline-block;
-  height: 80px;
-  width: 150px;
-  border: 2px solid blue;
-  border-radius: 5px;
-  margin-left: 20px;
-  margin-right:5px;
-}
-
-.rect3 {
-  display: inline-block;
-  height: 80px;
-  width: 150px;
-  border: 2px solid blue;
-  border-radius: 5px;
-  margin-left: 10px;
-  margin-top:-83px;
-  
-}
-.rect4 {
-  height: 50px;
-  width: 500px;
-  border: 2px solid blue;
-  border-radius: 5px;
-  background-color: #3399ff;
-  line-height: 50px;
-  margin-left: -440px;
-  margin-top:40px;
-}
-.button4 {
-  font-size: 11px;
-  background-color: #ffff33;
-  font-weight: bold;
-  border-radius: 5px;
-  margin-top: 10px;
-  margin-left: 10px;
-  width: 40px;
-  height: 20px;
-}
-.button5 {
-  font-size: 11px;
-  background-color: #88cc00;
-  font-weight: bold;
-  border-radius: 5px;
-  margin-top: 10px;
-  margin-left: 10px;
-  width: 80px;
-  height:20px;
-}
-.footer {
-  margin-left: 20px;
-  height: 700px;
-}
-.abt {
-  font-size: 14px;
-  margin-left: 2px;
-  line-height: 20px;
-}
-.copy {
-  width: 520px;
-  font-size: 16px;
-  color: gainsboro;
-  margin-top: 20px;
-  line-height: 20px;
-}
-.connect {
-  margin-left: 15px;
-  margin-top: 40px;
-
-  font-size: 16px;
-  color: gainsboro;
-}
-.fb {
-  margin-left: -680px;
-}
-.fbimg {
-  width: 40px;
-  height: 40px;
-}
-.twitimg {
-  margin-top: -39px;
-  width: 40px;
-  height: 40px;
-  margin-left: 5px;
-}
-
-.connect2 {
-  margin-top: -70px;
-  font-size: 16px;
-  margin-left: 240px;
-  color: gainsboro;
-}
-.google {
-  margin-left: -260px;
-  margin-top:2px;
-}
-
-.googleimg {
-  margin-left: 490px;
-  width: 130px;
-  height: 40px;
-  margin-top: 10px;
-}
-.appleimg {
-  margin-left: 630px;
-  margin-top: -40px;
-  width: 130;
-  height: 40px;
+    .name {
+        margin-left: 15px;
+    }
+    .view {
+        margin-left: -40px;
+    }
+    .login {
+        margin-left: 20px;
+    }
+    .border {
+        width: 530px;
+        height: 750px;
+    }
+    .rectangle {
+        padding: -10px;
+        margin-top: -200px;
+        margin-left: 450px;
+    }
+    .rect1 {
+        display: inline-block;
+        height: 80px;
+        width: 150px;
+        border: 2px solid blue;
+        border-radius: 5px;
+        margin-left: -420px;
+    }
+    .rect2 {
+        display: inline-block;
+        height: 80px;
+        width: 150px;
+        border: 2px solid blue;
+        border-radius: 5px;
+        margin-left: 20px;
+        margin-right: 5px;
+    }
+    .rect3 {
+        display: inline-block;
+        height: 80px;
+        width: 150px;
+        border: 2px solid blue;
+        border-radius: 5px;
+        margin-left: 10px;
+        margin-top: -83px;
+    }
+    .rect4 {
+        height: 50px;
+        width: 500px;
+        border: 2px solid blue;
+        border-radius: 5px;
+        background-color: #3399ff;
+        line-height: 50px;
+        margin-left: -440px;
+        margin-top: 40px;
+    }
+    .button4 {
+        font-size: 11px;
+        background-color: #ffff33;
+        font-weight: bold;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 40px;
+        height: 20px;
+    }
+    .button5 {
+        font-size: 11px;
+        background-color: #88cc00;
+        font-weight: bold;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 80px;
+        height: 20px;
+    }
+    .footer {
+        margin-left: 20px;
+        height: 700px;
+    }
+    .abt {
+        font-size: 14px;
+        margin-left: 2px;
+        line-height: 20px;
+    }
+    .copy {
+        width: 520px;
+        font-size: 16px;
+        color: gainsboro;
+        margin-top: 20px;
+        line-height: 20px;
+    }
+    .connect {
+        margin-left: 15px;
+        margin-top: 40px;
+        font-size: 16px;
+        color: gainsboro;
+    }
+    .fb {
+        margin-left: -680px;
+    }
+    .fbimg {
+        width: 40px;
+        height: 40px;
+    }
+    .twitimg {
+        margin-top: -39px;
+        width: 40px;
+        height: 40px;
+        margin-left: 5px;
+    }
+    .connect2 {
+        margin-top: -70px;
+        font-size: 16px;
+        margin-left: 240px;
+        color: gainsboro;
+    }
+    .google {
+        margin-left: -260px;
+        margin-top: 2px;
+    }
+    .googleimg {
+        margin-left: 490px;
+        width: 130px;
+        height: 40px;
+        margin-top: 10px;
+    }
+    .appleimg {
+        margin-left: 630px;
+        margin-top: -40px;
+        width: 130;
+        height: 40px;
+    }
 }
 
-
+@media screen and (min-width: 541px) and (max-width: 770px) {
+    .name {
+        margin-left: 15px;
+    }
+    .view {
+        margin-left: 100px;
+    }
+    .login {
+        margin-left: 20px;
+    }
+    .rectangle {
+        padding: -10px;
+        margin-top: -200px;
+        margin-left: 450px;
+    }
+    .rect1 {
+        display: inline-block;
+        height: 80px;
+        width: 210px;
+        border: 2px solid blue;
+        border-radius: 5px;
+        margin-left: -380px;
+    }
+    .rect2 {
+        display: inline-block;
+        height: 80px;
+        width: 210px;
+        border: 2px solid blue;
+        border-radius: 5px;
+        margin-left: 10px;
+    }
+    .rect3 {
+        display: inline-block;
+        height: 80px;
+        width: 210px;
+        border: 2px solid blue;
+        border-radius: 5px;
+        margin-left: 80px;
+        margin-top: -83px;
+    }
+    .rect4 {
+        height: 50px;
+        width: 700px;
+        border: 2px solid blue;
+        border-radius: 5px;
+        background-color: #3399ff;
+        line-height: 50px;
+        margin-left: -400px;
+        margin-top: 15px;
+    }
+    .button4 {
+        font-size: 11px;
+        background-color: #ffff33;
+        font-weight: bold;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 40px;
+        height: 20px;
+    }
+    .button5 {
+        font-size: 11px;
+        background-color: #88cc00;
+        font-weight: bold;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 80px;
+        height: 20px;
+    }
+    .footer {
+        margin-left: 20px;
+        height: 400px;
+    }
+    .abt {
+        font-size: 13px;
+        margin-left: 2px;
+        line-height: 20px;
+    }
+    .about {
+        width: 340px;
+    }
+    .copy {
+        width: 340px;
+        font-size: 12px;
+        color: gainsboro;
+        margin-top: 20px;
+        line-height: 20px;
+    }
+    .connect {
+        margin-left: 400px;
+        margin-top: -133px;
+        font-size: 14px;
+        color: gainsboro;
+    }
+    .fb {
+        margin-left: -300px;
+    }
+    .fbimg {
+        width: 40px;
+        height: 40px;
+    }
+    .twitimg {
+        width: 40px;
+        height: 40px;
+        margin-top: -40px;
+        margin-left: 5px;
+    }
+    .google {
+        margin-top: 2px;
+    }
+    .connect2 {
+        margin-top: -75px;
+        font-size: 14px;
+        margin-left: 570px;
+        color: gainsboro;
+    }
+    .googleimg {
+        margin-left: 570;
+        width: 130px;
+        height: 40px;
+        margin-top: 10px;
+    }
+    .appleimg {
+        margin-left: 570px;
+        margin-top: 10px;
+        width: 130;
+        height: 40px;
+    }
 }
-@media screen and (min-width: 541px) and (max-width: 770px){
-  .name{
-    margin-left:15px;
-  }
-.view{
-  margin-left:100px;
-  
-}
-.login{
-  margin-left:20px;
-  
-}
-.rectangle {
-  padding: -10px;
-  margin-top: -200px;
-  margin-left: 450px;
-}
-.rect1 {
-  display: inline-block;
-  height: 80px;
-  width: 210px;
-  border: 2px solid blue;
-  border-radius: 5px;
-  margin-left: -380px;
-  
-}
-.rect2 {
-  display: inline-block;
-  height: 80px;
-  width: 210px;
-  border: 2px solid blue;
-  border-radius: 5px;
-  margin-left: 10px;
-  
-}
-
-.rect3 {
-  display: inline-block;
-  height: 80px;
-  width: 210px;
-  border: 2px solid blue;
-  border-radius: 5px;
-  margin-left: 80px;
-  margin-top:-83px;
-}
-.rect4 {
-  height: 50px;
-  width: 700px;
-  border: 2px solid blue;
-  border-radius: 5px;
-  background-color: #3399ff;
-  line-height: 50px;
-  margin-left: -400px;
-  margin-top:15px;
-}
-.button4 {
-  font-size: 11px;
-  background-color: #ffff33;
-  font-weight: bold;
-  border-radius: 5px;
-  margin-top: 10px;
-  margin-left: 10px;
-  width: 40px;
-  height: 20px;
-}
-.button5 {
-  font-size: 11px;
-  background-color: #88cc00;
-  font-weight: bold;
-  border-radius: 5px;
-  margin-top: 10px;
-  margin-left: 10px;
-  width: 80px;
-  height:20px;
-}
-.footer {
-  margin-left: 20px;
-  height: 400px;
-}
-.abt {
-  font-size: 13px;
-  margin-left: 2px;
-  line-height: 20px;
-}
-.about {
-  width: 340px;
-}
-.copy {
-  width: 340px;
-  font-size: 12px;
-  color: gainsboro;
-  margin-top: 20px;
-  line-height: 20px;
-}
-.connect {
-  margin-left: 400px;
-  margin-top: -133px;
-
-  font-size: 14px;
-  color: gainsboro;
-}
-.fb {
-  margin-left: -300px;
-}
-.fbimg {
-  width: 40px;
-  height: 40px;
-}
-.twitimg {
-  width: 40px;
-  height: 40px;
-  margin-top: -40px;
-  margin-left: 5px;
-}
-.google{
-  margin-top:2px;
-}
-
-.connect2 {
-  margin-top: -75px;
-  font-size: 14px;
-  margin-left: 570px;
-  color: gainsboro;
-}
-
-.googleimg {
-  margin-left: 570;
-  width: 130px;
-  height: 40px;
-  margin-top: 10px;
-}
-.appleimg {
-  margin-left: 570px;
-  margin-top: 10px;
-  width: 130;
-  height: 40px;
-}
-
-}
-
-
-
 
 @media screen and (min-width: 771px) and (max-width: 1100px) {
-  .name{
-    margin-left:15px;
-  }
-.view{
-  margin-left:400px;
-  
-}
-.login{
-  margin-left:20px;
-  
-}
-.rectangle {
-  padding: -10px;
-  margin-top: -200px;
-  margin-left: 550px;
-}
-.rect1 {
-  display: inline-block;
-  height: 80px;
-  width: 210px;
-  border: 2px solid blue;
-  border-radius: 5px;
-  margin-left: -380px;
-
-  
-}
-.rect2 {
-  display: inline-block;
-  height: 80px;
-  width: 210px;
-  border: 2px solid blue;
-  border-radius: 5px;
-  margin-left: 20px;
-  margin-right:5px;
-}
-
-.rect3 {
-  display: inline-block;
-  height: 80px;
-  width: 210px;
-  border: 2px solid blue;
-  border-radius: 5px;
-  margin-left: 10px;
-  margin-top:-83px;
-  
-}
-.rect4 {
-  height: 50px;
-  width: 700px;
-  border: 2px solid blue;
-  border-radius: 5px;
-  background-color: #3399ff;
-  line-height: 50px;
-  margin-left: -390px;
-  margin-top:15px;
-}
-.button4 {
-  font-size: 11px;
-  background-color: #ffff33;
-  font-weight: bold;
-  border-radius: 5px;
-  margin-top: 10px;
-  margin-left: 10px;
-  width: 40px;
-  height: 20px;
-}
-.button5 {
-  font-size: 11px;
-  background-color: #88cc00;
-  font-weight: bold;
-  border-radius: 5px;
-  margin-top: 10px;
-  margin-left: 10px;
-  width: 80px;
-  height:20px;
-}
-.footer {
-  margin-left: 20px;
-  height: 500px;
-}
-.abt {
-  font-size: 13px;
-  margin-left: 2px;
-}
-
-.copy {
-  width: 500px;
-  font-size: 12px;
-  color: gainsboro;
-  margin-top: 20px;
-}
-.connect {
-  margin-left: 600px;
-  margin-top: -95px;
-
-  font-size: 14px;
-  color: gainsboro;
-}
-.fb {
-  margin-left: -100px;
-}
-.fbimg {
-  width: 40px;
-  height: 40px;
-}
-.twitimg {
-  width: 40px;
-  height: 40px;
-  margin-top: -40px;
-  margin-left: 5px;
-}
-
-.connect2 {
-  margin-top: -75px;
-  font-size: 14px;
-  margin-left: 770px;
-  color: gainsboro;
-}
-.google {
-  margin-left: 200px;
-  margin-top:2px;
-}
-.googleimg {
-  margin-left: 570;
-  width: 130px;
-  height: 40px;
-  margin-top: 10px;
-}
-.appleimg {
-  margin-left: 570px;
-  margin-top: 10px;
-  width: 130;
-  height: 40px;
-}
-
-
+    .name {
+        margin-left: 15px;
+    }
+    .view {
+        margin-left: 400px;
+    }
+    .login {
+        margin-left: 20px;
+    }
+    .rectangle {
+        padding: -10px;
+        margin-top: -200px;
+        margin-left: 550px;
+    }
+    .rect1 {
+        display: inline-block;
+        height: 80px;
+        width: 210px;
+        border: 2px solid blue;
+        border-radius: 5px;
+        margin-left: -380px;
+    }
+    .rect2 {
+        display: inline-block;
+        height: 80px;
+        width: 210px;
+        border: 2px solid blue;
+        border-radius: 5px;
+        margin-left: 20px;
+        margin-right: 5px;
+    }
+    .rect3 {
+        display: inline-block;
+        height: 80px;
+        width: 210px;
+        border: 2px solid blue;
+        border-radius: 5px;
+        margin-left: 10px;
+        margin-top: -83px;
+    }
+    .rect4 {
+        height: 50px;
+        width: 700px;
+        border: 2px solid blue;
+        border-radius: 5px;
+        background-color: #3399ff;
+        line-height: 50px;
+        margin-left: -390px;
+        margin-top: 15px;
+    }
+    .button4 {
+        font-size: 11px;
+        background-color: #ffff33;
+        font-weight: bold;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 40px;
+        height: 20px;
+    }
+    .button5 {
+        font-size: 11px;
+        background-color: #88cc00;
+        font-weight: bold;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 80px;
+        height: 20px;
+    }
+    .footer {
+        margin-left: 20px;
+        height: 500px;
+    }
+    .abt {
+        font-size: 13px;
+        margin-left: 2px;
+    }
+    .copy {
+        width: 500px;
+        font-size: 12px;
+        color: gainsboro;
+        margin-top: 20px;
+    }
+    .connect {
+        margin-left: 600px;
+        margin-top: -95px;
+        font-size: 14px;
+        color: gainsboro;
+    }
+    .fb {
+        margin-left: -100px;
+    }
+    .fbimg {
+        width: 40px;
+        height: 40px;
+    }
+    .twitimg {
+        width: 40px;
+        height: 40px;
+        margin-top: -40px;
+        margin-left: 5px;
+    }
+    .connect2 {
+        margin-top: -75px;
+        font-size: 14px;
+        margin-left: 770px;
+        color: gainsboro;
+    }
+    .google {
+        margin-left: 200px;
+        margin-top: 2px;
+    }
+    .googleimg {
+        margin-left: 570;
+        width: 130px;
+        height: 40px;
+        margin-top: 10px;
+    }
+    .appleimg {
+        margin-left: 570px;
+        margin-top: 10px;
+        width: 130;
+        height: 40px;
+    }
 }
